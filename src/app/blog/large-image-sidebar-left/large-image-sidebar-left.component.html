@@ -1,0 +1,263 @@
+
+<div class="page-wraper">
+
+
+    <!-- header -->
+    <app-header-light3></app-header-light3>
+    <!-- header END -->
+    <!-- Content -->
+    <div class="page-content bg-gray">
+        <!-- inner page banner -->
+        <app-banner1 [data] = "banner"></app-banner1>
+        <!-- inner page banner END -->
+        <div class="content-area">
+            <div class="container">
+                <div class="row">
+					
+					<ng-template [ngIf]="layout.sidebar">
+						<div class="col-xl-3 col-lg-4 col-md-5" *ngIf="layout.sidebarPosition=='left'">
+							<aside class="side-bar sticky-top">
+								<app-search-form3></app-search-form3>
+								<app-recent-posts1></app-recent-posts1>
+								<app-our-gallery1></app-our-gallery1>
+								<app-category-list1></app-category-list1>
+								<app-tag-list1></app-tag-list1>
+							</aside>
+						</div>
+					</ng-template>
+					
+				
+				
+                    <!-- Left part start -->
+                    <div class="col-xl-9 col-lg-8 col-md-7">
+                        <div class="blog-post blog-lg blog-rounded shadow bg-white">
+							<div class="dlab-post-media dlab-img-effect zoom-slow"> 
+								<a [routerLink]="['/blog-single']"><img src="assets/images/blog/default/thum1.jpg" alt=""></a> 
+							</div>
+							<div class="dlab-info p-a25">
+								<div class="dlab-post-meta">
+									<ul>
+										<li class="post-author"> <i class="la la-user-circle"></i> By <a href="javascript:void(0);">Jamie</a> </li>
+										<li class="post-tag"> <a href="javascript:void(0);">KNOWLEDGE</a> </li>
+									</ul>
+								</div>
+								<div class="dlab-post-title ">
+									<h4 class="post-title"><a [routerLink]="['/blog-single']">Why is Early Education Essential?</a></h4>
+								</div>
+								<div class="dlab-post-text">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
+								</div>
+								<div class="post-footer">
+									<div class="dlab-post-meta">
+										<ul>
+											<li class="post-date"> <i class="la la-clock"></i> <strong>01 June</strong> <span> 2020</span> </li>
+										</ul>
+									</div>
+									<ul class="dlab-social-icon dez-border">
+										<li><a class="site-button facebook circle-sm fa fa-facebook" href="javascript:void(0);"></a></li>
+										<li><a class="site-button twitter circle-sm fa fa-twitter " href="javascript:void(0);"></a></li>
+										<li><a class="site-button linkedin circle-sm fa fa-linkedin " href="javascript:void(0);"></a></li>
+										<li><a class="site-button instagram  circle-sm fa fa-instagram  " href="javascript:void(0);"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="blog-post blog-lg blog-rounded shadow bg-white">
+							<div class="dlab-post-media dlab-img-effect zoom-slow"> 
+								<a [routerLink]="['/blog-single']"><img src="assets/images/blog/default/thum2.jpg" alt=""></a> 
+							</div>
+							<div class="dlab-info p-a25">
+								<div class="dlab-post-meta">
+									<ul>
+										<li class="post-author"> <i class="la la-user-circle"></i> By <a href="javascript:void(0);">Reuben</a> </li>
+										<li class="post-tag"> <a href="javascript:void(0);">Event</a> </li>
+									</ul>
+								</div>
+								<div class="dlab-post-title">
+									<h4 class="post-title"><a [routerLink]="['/blog-single']">The Shocking Revelation of Education.</a></h4>
+								</div>
+								<div class="dlab-post-text">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
+								</div>
+								<div class="post-footer">
+									<div class="dlab-post-meta">
+										<ul>
+											<li class="post-date"> <i class="la la-clock"></i> <strong>01 June</strong> <span> 2020</span> </li>
+										</ul>
+									</div>
+									<ul class="dlab-social-icon dez-border">
+										<li><a class="site-button facebook circle-sm fa fa-facebook" href="javascript:void(0);"></a></li>
+										<li><a class="site-button twitter circle-sm fa fa-twitter " href="javascript:void(0);"></a></li>
+										<li><a class="site-button linkedin circle-sm fa fa-linkedin " href="javascript:void(0);"></a></li>
+										<li><a class="site-button instagram circle-sm fa fa-instagram  " href="javascript:void(0);"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="blog-post blog-lg blog-rounded shadow bg-white">
+							<div class="dlab-post-media dlab-img-effect zoom-slow"> 
+								<a [routerLink]="['/blog-single']"><img src="assets/images/blog/default/thum3.jpg" alt=""></a> 
+							</div>
+							<div class="dlab-info p-a25">
+								<div class="dlab-post-meta">
+									<ul>
+										<li class="post-author"> <i class="la la-user-circle"></i> By <a href="javascript:void(0);">Caroline</a> </li>
+										<li class="post-tag"> <a href="javascript:void(0);">Education</a> </li>
+									</ul>
+								</div>
+								<div class="dlab-post-title ">
+									<h4 class="post-title"><a [routerLink]="['/blog-single']">Five Things Nobody Told You About</a></h4>
+								</div>
+								<div class="dlab-post-text">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
+								</div>
+								<div class="post-footer">
+									<div class="dlab-post-meta">
+										<ul>
+											<li class="post-date"> <i class="la la-clock"></i> <strong>01 June</strong> <span> 2020</span> </li>
+										</ul>
+									</div>
+									<ul class="dlab-social-icon dez-border">
+										<li><a class="site-button facebook circle-sm fa fa-facebook" href="javascript:void(0);"></a></li>
+										<li><a class="site-button twitter circle-sm fa fa-twitter " href="javascript:void(0);"></a></li>
+										<li><a class="site-button linkedin circle-sm fa fa-linkedin " href="javascript:void(0);"></a></li>
+										<li><a class="site-button instagram circle-sm fa fa-instagram  " href="javascript:void(0);"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="blog-post blog-lg blog-rounded shadow bg-white">
+							<div class="dlab-post-media dlab-img-effect zoom-slow"> 
+								<a [routerLink]="['/blog-single']"><img src="assets/images/blog/default/thum4.jpg" alt=""></a> 
+							</div>
+							<div class="dlab-info p-a25">
+								<div class="dlab-post-meta">
+									<ul>
+										<li class="post-author"> <i class="la la-user-circle"></i> By <a href="javascript:void(0);">Harry</a> </li>
+										<li class="post-tag"> <a href="javascript:void(0);">knowledge</a> </li>
+									</ul>
+								</div>
+								<div class="dlab-post-title ">
+									<h4 class="post-title"><a [routerLink]="['/blog-single']">Here's What People Are Saying About</a></h4>
+								</div>
+								<div class="dlab-post-text">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
+								</div>
+								<div class="post-footer">
+									<div class="dlab-post-meta">
+										<ul>
+											<li class="post-date"> <i class="la la-clock"></i> <strong>01 June</strong> <span> 2020</span> </li>
+										</ul>
+									</div>
+									<ul class="dlab-social-icon dez-border">
+										<li><a class="site-button facebook circle-sm fa fa-facebook" href="javascript:void(0);"></a></li>
+										<li><a class="site-button twitter circle-sm fa fa-twitter " href="javascript:void(0);"></a></li>
+										<li><a class="site-button linkedin circle-sm fa fa-linkedin " href="javascript:void(0);"></a></li>
+										<li><a class="site-button instagram circle-sm fa fa-instagram  " href="javascript:void(0);"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="blog-post blog-lg blog-rounded shadow bg-white">
+							<div class="dlab-post-media dlab-img-effect zoom-slow"> 
+								<a [routerLink]="['/blog-single']"><img src="assets/images/blog/default/thum1.jpg" alt=""></a> 
+							</div>
+							<div class="dlab-info p-a25">
+								<div class="dlab-post-meta">
+									<ul>
+										<li class="post-author"> <i class="la la-user-circle"></i> By <a href="javascript:void(0);">Anna</a> </li>
+										<li class="post-tag"> <a href="javascript:void(0);">event</a> </li>
+									</ul>
+								</div>
+								<div class="dlab-post-title ">
+									<h4 class="post-title"><a [routerLink]="['/blog-single']">How Education Can Ease Your Pain </a></h4>
+								</div>
+								<div class="dlab-post-text">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
+								</div>
+								<div class="post-footer">
+									<div class="dlab-post-meta">
+										<ul>
+											<li class="post-date"> <i class="la la-clock"></i> <strong>01 June</strong> <span> 2020</span> </li>
+										</ul>
+									</div>
+									<ul class="dlab-social-icon dez-border">
+										<li><a class="site-button facebook circle-sm fa fa-facebook" href="javascript:void(0);"></a></li>
+										<li><a class="site-button twitter circle-sm fa fa-twitter " href="javascript:void(0);"></a></li>
+										<li><a class="site-button linkedin circle-sm fa fa-linkedin " href="javascript:void(0);"></a></li>
+										<li><a class="site-button instagram circle-sm fa fa-instagram  " href="javascript:void(0);"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="blog-post blog-lg blog-rounded shadow bg-white">
+							<div class="dlab-post-media dlab-img-effect zoom-slow"> 
+								<a [routerLink]="['/blog-single']"><img src="assets/images/blog/default/thum2.jpg" alt=""></a> 
+							</div>
+							<div class="dlab-info p-a25">
+								<div class="dlab-post-meta">
+									<ul>
+										<li class="post-author"> <i class="la la-user-circle"></i> By <a href="javascript:void(0);">Oliver</a> </li>
+										<li class="post-tag"> <a href="javascript:void(0);">education</a> </li>
+									</ul>
+								</div>
+								<div class="dlab-post-title ">
+									<h4 class="post-title"><a [routerLink]="['/blog-single']">Why You Should Not Go To Education</a></h4>
+								</div>
+								<div class="dlab-post-text">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
+								</div>
+								<div class="post-footer">
+									<div class="dlab-post-meta">
+										<ul>
+											<li class="post-date"> <i class="la la-clock"></i> <strong>01 June</strong> <span> 2020</span> </li>
+										</ul>
+									</div>
+									<ul class="dlab-social-icon dez-border">
+										<li><a class="site-button facebook circle-sm fa fa-facebook" href="javascript:void(0);"></a></li>
+										<li><a class="site-button twitter circle-sm fa fa-twitter " href="javascript:void(0);"></a></li>
+										<li><a class="site-button linkedin circle-sm fa fa-linkedin " href="javascript:void(0);"></a></li>
+										<li><a class="site-button instagram circle-sm fa fa-instagram  " href="javascript:void(0);"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+                        <!-- Pagination start -->
+                        <div class="pagination-bx rounded-sm primary clearfix m-b30 text-center">
+							<ul class="pagination">
+								<li class="previous"><a href="javascript:void(0);"><i class="ti-arrow-left"></i> Prev</a></li>
+								<li class="active"><a href="javascript:void(0);">1</a></li>
+								<li><a href="javascript:void(0);">2</a></li>
+								<li><a href="javascript:void(0);">3</a></li>
+								<li class="next"><a href="javascript:void(0);">Next <i class="ti-arrow-right"></i></a></li>
+							</ul>
+						</div>
+                        <!-- Pagination END -->
+                    </div>
+                    <!-- Left part END -->
+                    <!-- Side bar start -->
+                    <ng-template [ngIf]="layout.sidebar">
+						<div class="col-xl-3 col-lg-4 col-md-5" *ngIf="layout.sidebarPosition=='right'">
+							<aside class="side-bar sticky-top">
+								<app-search-form3></app-search-form3>
+								<app-recent-posts1></app-recent-posts1>
+								<app-our-gallery1></app-our-gallery1>
+								<app-category-list1></app-category-list1>
+								<app-tag-list1></app-tag-list1>
+							</aside>
+						</div>
+					</ng-template>
+                    <!-- Side bar END -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content END-->
+	<!-- Footer -->
+   <!-- Newsletter -->
+	<app-newsletter2></app-newsletter2>
+   <!-- Footer -->
+    <app-footer13></app-footer13>
+    <!-- Footer END-->
+    <button class="scroltop fa fa-chevron-up" ></button>
+</div>

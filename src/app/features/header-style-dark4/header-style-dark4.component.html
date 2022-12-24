@@ -1,0 +1,356 @@
+
+<div class="page-wraper">
+
+    <!-- header -->
+    <app-header-dark4></app-header-dark4>
+    <!-- header END -->
+    <!-- Content -->
+    <div class="page-content">
+        <!-- inner page banner -->
+        <app-banner5 [data] = "banner"></app-banner5>
+        <!-- inner page banner END -->
+        <!-- contact area -->
+        <div class="content-block">
+            <!-- Code Box -->
+			<div class="section-full content-inner bg-white video-section">
+				<div class="container">
+					<div class="header-box">
+						<div class="row align-items-center">
+							<div class="col-lg-3 col-md-4">
+								<img src="assets/images/header.png" alt=""/>
+							</div>
+							<div class="col-lg-9 col-md-8">
+								<h2 class="title">Check Header Style 04</h2>
+								<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm.</p>
+							</div>
+						</div>
+					</div>
+					<div class="relative">
+						<button id="copyButton" class="btn">Copy</button>
+<pre class="code-box" id="copyTarget">
+&lt;!-- header --&gt;
+&lt;header class="site-header mo-left header-transparent overlay header"&gt;
+	&lt;!-- main header --&gt;
+	&lt;div class="sticky-header main-bar-wraper navbar-expand-lg"&gt;
+		&lt;div class="main-bar clearfix "&gt;
+			&lt;div class="container clearfix"&gt;
+				&lt;!-- website logo --&gt;
+				&lt;div class="logo-header mostion"&gt;
+					&lt;a [routerLink]="['/home-university']"&gt;&lt;img src="assets/images/logo-white.png" alt=""&gt;&lt;/a&gt;
+				&lt;/div&gt;
+				&lt;!-- nav toggle button --&gt;
+				&lt;button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"&gt;
+					&lt;span&gt;&lt;/span&gt;
+					&lt;span&gt;&lt;/span&gt;
+					&lt;span&gt;&lt;/span&gt;
+				&lt;/button&gt;
+				&lt;!-- extra nav --&gt;
+				&lt;div class="extra-nav"&gt;
+					&lt;div class="extra-cell"&gt;
+						&lt;button id="quik-search-btn" type="button" class="site-button-link"&gt;&lt;i class="la la-search"&gt;&lt;/i&gt;&lt;/button&gt;
+						&lt;div class="shop-cart navbar-right"&gt;
+							&lt;button type="button" class="site-button-link cart-btn"&gt;
+								&lt;i class="la la-cart-plus"&gt;&lt;/i&gt;&lt;span class="badge bg-primary"&gt;3&lt;/span&gt;
+							&lt;/button&gt;
+							&lt;ul class="dropdown-menu cart-list"&gt;
+								&lt;li class="cart-item"&gt;
+									&lt;div class="media"&gt; 
+										&lt;div class="media-left"&gt; 
+											&lt;a href="javascript:void(0);"&gt; 
+												&lt;img alt="" class="media-object" src="assets/images/product/thumb3.jpg"&gt; 
+											&lt;/a&gt; 
+										&lt;/div&gt; 
+										&lt;div class="media-body"&gt; 
+											&lt;h6&gt;&lt;a href=" class="media-heading"&gt;Tshirt Dress&lt;/a&gt;&lt;/h6&gt;
+											&lt;span&gt;$19.99&lt;/span&gt;
+											&lt;span class="item-close"&gt;X&lt;/span&gt;
+										&lt;/div&gt; 
+									&lt;/div&gt;
+								&lt;/li&gt;
+								&lt;li class="cart-item"&gt;
+									&lt;div class="media"&gt; 
+										&lt;div class="media-left"&gt; 
+											&lt;a href="javascript:void(0);"&gt; 
+												&lt;img alt="" class="media-object" src="assets/images/product/thumb2.jpg"&gt; 
+											&lt;/a&gt; 
+										&lt;/div&gt; 
+										&lt;div class="media-body"&gt; 
+											&lt;h6&gt;&lt;a href=" class="media-heading"&gt;Tshirt Dress&lt;/a&gt;&lt;/h6&gt;
+											&lt;span&gt;$19.99&lt;/span&gt;
+											&lt;span class="item-close"&gt;X&lt;/span&gt;
+										&lt;/div&gt; 
+									&lt;/div&gt;
+								&lt;/li&gt;
+								&lt;li class="cart-item"&gt;
+									&lt;div class="media"&gt; 
+										&lt;div class="media-left"&gt; 
+											&lt;a href="javascript:void(0);"&gt; 
+												&lt;img alt="" class="media-object" src="assets/images/product/thumb1.jpg"&gt; 
+											&lt;/a&gt; 
+										&lt;/div&gt; 
+										&lt;div class="media-body"&gt; 
+											&lt;h6&gt;&lt;a href=" class="media-heading"&gt;Tshirt Dress&lt;/a&gt;&lt;/h6&gt;
+											&lt;span&gt;$19.99&lt;/span&gt;
+											&lt;span class="item-close"&gt;X&lt;/span&gt;
+										&lt;/div&gt; 
+									&lt;/div&gt;
+								&lt;/li&gt;
+								&lt;li class="cart-item text-center"&gt;
+									&lt;h5 class="text-black m-a0"&gt;Totle = $500&lt;/h5&gt;
+								&lt;/li&gt;
+								&lt;li class="text-center"&gt;
+									&lt;button class="site-button radius-xl m-r5"&gt;View Cart&lt;/button&gt;
+									&lt;button class="site-button radius-xl outline black"&gt;Checkout&lt;/button&gt;
+								&lt;/li&gt;
+							&lt;/ul&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;!-- Quik search --&gt;
+				&lt;div class="dlab-quik-search "&gt;
+					&lt;form action="#"&gt;
+						&lt;input name="search" value=" type="text" class="form-control" placeholder="Type to search"&gt;
+						&lt;span id="quik-search-remove"&gt;&lt;i class="ti-close"&gt;&lt;/i&gt;&lt;/span&gt;
+					&lt;/form&gt;
+				&lt;/div&gt;
+				&lt;!-- main nav --&gt;
+				&lt;div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown"&gt;
+					&lt;div class="logo-header d-md-block d-lg-none"&gt;
+						&lt;a [routerLink]="['/home-university']"&gt;&lt;img src="assets/images/logo.png" alt=""&gt;&lt;/a&gt;
+					&lt;/div&gt;
+					&lt;ul class="nav navbar-nav"&gt;	
+						&lt;li class="active"&gt;
+							&lt;a href="javascript:void(0);"&gt;Home&lt;i class="fa fa-chevron-down"&gt;&lt;/i&gt;&lt;/a&gt;
+							&lt;ul class="sub-menu right"&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/home-university']"&gt;Home - University&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/home-kindergarten']"&gt;Home - Kindergarten&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/home-college']"&gt;Home - Collage&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/home-coaching']"&gt;Home - Coaching&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/home-school']"&gt;Home - School&lt;/a&gt;&lt;/li&gt;
+							&lt;/ul&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;a href="javascript:void(0);"&gt;Features&lt;i class="fa fa-chevron-down"&gt;&lt;/i&gt;&lt;/a&gt;
+							&lt;ul class="sub-menu tab-content"&gt;
+								&lt;li&gt;
+									&lt;a href="javascript:void(0);"&gt;Header Light &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;&lt;/a&gt;
+									&lt;ul class="sub-menu"&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/header-style-1']"&gt;Header 1&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/header-style-2']"&gt;Header 2&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/header-style-3']"&gt;Header 3&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/header-style-4']"&gt;Header 4&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/header-style-5']"&gt;Header 5&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/header-style-6']"&gt;Header 6&lt;/a&gt;&lt;/li&gt;
+									&lt;/ul&gt;
+								&lt;/li&gt;	
+								&lt;li&gt; 
+									&lt;a href="javascript:void(0);"&gt;Header Dark &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;&lt;/a&gt;
+									&lt;ul class="sub-menu"&gt;		
+										&lt;li&gt;&lt;a [routerLink]="['/header-style-dark-1']"&gt;Header 1&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/header-style-dark-2']"&gt;Header 2&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/header-style-dark-3']"&gt;Header 3&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/header-style-dark-4']"&gt;Header 4&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/header-style-dark-5']"&gt;Header 5&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/header-style-dark-6']"&gt;Header 6&lt;/a&gt;&lt;/li&gt;
+									&lt;/ul&gt;
+								&lt;/li&gt;
+								&lt;li&gt; 
+									&lt;a href="javascript:void(0);"&gt;Footer &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;&lt;/a&gt;
+									&lt;ul class="sub-menu"&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/footer-1']"&gt;Footer 1 &lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/footer-2']"&gt;Footer 2&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/footer-3']"&gt;Footer 3&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/footer-4']"&gt;Footer 4&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/footer-5']"&gt;Footer 5&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/footer-6']"&gt;Footer 6&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/footer-7']"&gt;Footer 7&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/footer-8']"&gt;Footer 8&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/footer-9']"&gt;Footer 9&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/footer-10']"&gt;Footer 10&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/footer-11']"&gt;Footer 11&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/footer-12']"&gt;Footer 12&lt;/a&gt;&lt;/li&gt;
+									&lt;/ul&gt;
+								&lt;/li&gt;
+							&lt;/ul&gt;
+						&lt;/li&gt;
+						&lt;li class="has-mega-menu"&gt; &lt;a href="javascript:void(0);"&gt;Pages&lt;i class="fa fa-chevron-down"&gt;&lt;/i&gt;&lt;/a&gt;
+							&lt;ul class="mega-menu"&gt;
+								&lt;li&gt; 
+									&lt;a href="javascript:void(0);"&gt;Pages&lt;/a&gt;
+									&lt;ul&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/about-1']"&gt;About us 1&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/about-2']"&gt;About us 2&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/services-1']"&gt;Services 1&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/services-2']"&gt;Services 2&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/faq-1']"&gt;Faqs &lt;/a&gt;&lt;/li&gt;
+									&lt;/ul&gt;
+								&lt;/li&gt;
+								&lt;li&gt; 
+									&lt;a href="javascript:void(0);"&gt;Pages&lt;/a&gt;
+									&lt;ul&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/teacher']"&gt;Teachers&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/teachers-profile']"&gt;Teachers Profile&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/courses']"&gt;Courses&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/courses-details']"&gt;Courses Details&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/event']"&gt;Events&lt;/a&gt;&lt;/li&gt;
+									&lt;/ul&gt;
+								&lt;/li&gt;
+								&lt;li&gt; 
+									&lt;a href="javascript:void(0);"&gt;Pages&lt;/a&gt;
+									&lt;ul&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/event-details']"&gt;Events Details&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/help-desk']"&gt;Help Desk&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/privacy-policy']"&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/error-404']"&gt;Error 404&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/error-405']"&gt;Error 405&lt;/a&gt;&lt;/li&gt;
+									&lt;/ul&gt;
+								&lt;/li&gt;
+								&lt;li&gt; 
+									&lt;a href="javascript:void(0);"&gt;Pages&lt;/a&gt;
+									&lt;ul&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/gallery-grid-2']"&gt;Gallery Grid 2&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/gallery-grid-3']"&gt;Gallery Grid 3&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/gallery-grid-4']"&gt;Gallery Grid 4&lt;/a&gt;&lt;/li&gt;									
+									&lt;/ul&gt;
+								&lt;/li&gt;
+							&lt;/ul&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;a href="javascript:void(0);"&gt;Shop&lt;i class="fa fa-chevron-down"&gt;&lt;/i&gt;&lt;/a&gt;
+							&lt;ul class="sub-menu"&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/shop']"&gt;Shop&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/shop-sidebar']"&gt;Shop Sidebar&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/shop-product-details']"&gt;Product Details&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/shop-cart']"&gt;Cart&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/shop-wishlist']"&gt;Wishlist&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/shop-checkout']"&gt;Checkout&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/shop-login']"&gt;Login&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/shop-register']"&gt;Register&lt;/a&gt;&lt;/li&gt;
+							&lt;/ul&gt;
+						&lt;/li&gt;
+						&lt;li class="has-mega-menu"&gt; &lt;a href="javascript:void(0);"&gt;Blog&lt;i class="fa fa-chevron-down"&gt;&lt;/i&gt;&lt;/a&gt;
+							&lt;ul class="mega-menu"&gt;
+								&lt;li&gt; &lt;a href="javascript:void(0);"&gt;Blog&lt;/a&gt;
+									&lt;ul&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-half-img']"&gt;Half image&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-half-img-sidebar']"&gt;Half image sidebar&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-half-img-left-sidebar']"&gt;Half image sidebar left&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-large-img']"&gt;Large image&lt;/a&gt;&lt;/li&gt;
+									&lt;/ul&gt;
+								&lt;/li&gt;
+								&lt;li&gt; &lt;a href="javascript:void(0);"&gt;Blog&lt;/a&gt;
+									&lt;ul&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-large-img-sidebar']"&gt;Large image sidebar&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-large-img-left-sidebar']"&gt;Large image sidebar left&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-grid-2']"&gt;Grid 2&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-grid-2-sidebar']"&gt;Grid 2 sidebar&lt;/a&gt;&lt;/li&gt;
+									&lt;/ul&gt;
+								&lt;/li&gt;
+								&lt;li&gt; &lt;a href="javascript:void(0);"&gt;Blog&lt;/a&gt;
+									&lt;ul&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-grid-2-sidebar-left']"&gt;Grid 2 sidebar left&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-grid-3']"&gt;Grid 3&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-grid-3-sidebar']"&gt;Grid 3 sidebar&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-grid-3-sidebar-left']"&gt;Grid 3 sidebar left&lt;/a&gt;&lt;/li&gt;
+									&lt;/ul&gt;
+								&lt;/li&gt;
+								&lt;li&gt; &lt;a href="javascript:void(0);"&gt;Blog&lt;/a&gt;
+									&lt;ul&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-grid-4']"&gt;Grid 4&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-single']"&gt;Single&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-single-sidebar']"&gt;Single sidebar&lt;/a&gt;&lt;/li&gt;
+										&lt;li&gt;&lt;a [routerLink]="['/blog-single-left-sidebar']"&gt;Single sidebar right&lt;/a&gt;&lt;/li&gt;
+									&lt;/ul&gt;
+								&lt;/li&gt;
+							&lt;/ul&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;a href="javascript:void(0);"&gt;Contact Us&lt;i class="fa fa-chevron-down"&gt;&lt;/i&gt;&lt;/a&gt;
+							&lt;ul class="sub-menu right"&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/contact-1']"&gt;Contact us 1&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/contact-2']"&gt;Contact us 2&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/contact-3']"&gt;Contact us 3&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a [routerLink]="['/contact-4']"&gt;Contact us 4&lt;/a&gt;&lt;/li&gt;
+							&lt;/ul&gt;
+						&lt;/li&gt;
+					&lt;/ul&gt;	
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;!-- main header END --&gt;
+&lt;/header&gt;
+&lt;!-- header END --&gt;
+</pre>
+					</div>
+				</div>
+			</div>
+			<!-- Code Box End -->
+        </div>
+        <!-- contact area END -->
+    </div>
+    <!-- Footer -->
+   <!-- Newsletter -->
+	<app-newsletter2></app-newsletter2>
+   <!-- Footer -->
+    <app-footer13></app-footer13>
+    <!-- Footer END-->
+    <!-- scroll top button -->
+    <button class="scroltop fa fa-chevron-up" ></button>
+</div>
+
+<script>
+document.getElementById("copyButton").addEventListener("click", function() {
+    $('#copyButton').addClass('active').text('Copied');
+    $('#copyTarget').addClass('active');
+	copyToClipboard(document.getElementById("copyTarget"));
+});
+function copyToClipboard(elem) {
+	  // create hidden text element, if it doesn't already exist
+    var targetId = "_hiddenCopyText_";
+    var isInput = elem.tagName === "INPUT" || elem.tagName === "TEXTAREA";
+    var origSelectionStart, origSelectionEnd;
+    if (isInput) {
+        // can just use the original source element for the selection and copy
+        target = elem;
+        origSelectionStart = elem.selectionStart;
+        origSelectionEnd = elem.selectionEnd;
+    } else {
+        // must use a temporary form element for the selection and copy
+        target = document.getElementById(targetId);
+        if (!target) {
+            var target = document.createElement("textarea");
+            target.style.position = "absolute";
+            target.style.left = "-9999px";
+            target.style.top = "0";
+            target.id = targetId;
+            document.body.appendChild(target);
+        }
+        target.textContent = elem.textContent;
+    }
+    // select the content
+    var currentFocus = document.activeElement;
+    target.focus();
+    target.setSelectionRange(0, target.value.length);
+    
+    // copy the selection
+    var succeed;
+    try {
+    	  succeed = document.execCommand("copy");
+    } catch(e) {
+        succeed = false;
+    }
+    // restore original focus
+    if (currentFocus && typeof currentFocus.focus === "function") {
+        currentFocus.focus();
+    }
+    if (isInput) {
+        // restore prior selection
+        elem.setSelectionRange(origSelectionStart, origSelectionEnd);
+    } else {
+        // clear temporary content
+        target.textContent = "";
+    }
+    return succeed;
+}
+</script>

@@ -1,0 +1,204 @@
+<header class="site-header mo-left navstyle1 header dark header-langschool fullwidth">
+		<!-- main header -->
+        <div class="sticky-header main-bar-wraper navbar-expand-lg">
+            <div class="main-bar clearfix ">
+                <div class="container-fluid clearfix">
+                    <!-- website logo -->
+                    <div class="logo-header mostion logo-white">
+						<a [routerLink]="['/home-university']"><img src="assets/images/logo-white-3.png" alt=""></a>
+					</div>
+                    <!-- nav toggle button -->
+                    <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+                    <!-- extra nav -->
+                    <div class="extra-nav">
+						<a [routerLink]="['/contact-1']" class="site-button btnhover17">GET A QUOTE</a>
+                    </div>
+                    <!-- Quik search -->
+                    <div class="dlab-quik-search ">
+                        <form action="#">
+                            <input name="search" value="" type="text" class="form-control" placeholder="Type to search">
+                            <span id="quik-search-remove"><i class="ti-close"></i></span>
+                        </form>
+                    </div>
+                    <!-- main nav -->
+                    <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+						<div class="logo-header d-md-block d-lg-none">
+							<a [routerLink]="['/home-university']"><img src="assets/images/logo-2.png" alt=""></a>
+						</div>
+                        <ul class="nav navbar-nav">	
+							<li class="active has-mega-menu homedemo">
+								<a href="javascript:;">Home<i class="fa fa-chevron-down"></i></a>
+								<ul class="mega-menu">
+									<li><a [routerLink]="['/home-university']"><img src="assets/demo/index.jpg" alt=""><span>Home - University</span></a></li>
+									<li><a [routerLink]="['/home-kindergarten']"><img src="assets/demo/index-2.jpg" alt=""><span>Home - Kindergarten</span></a></li>
+									<li><a [routerLink]="['/home-college']"><img src="assets/demo/index-3.jpg" alt=""><span>Home - Collage</span></a></li>
+									<li><a [routerLink]="['/home-coaching']"><img src="assets/demo/index-4.jpg" alt=""><span>Home - Coaching</span></a></li>
+									<li><a [routerLink]="['/home-school']"><img src="assets/demo/index-5.jpg" alt=""><span>Home - School</span></a></li>
+									<li><a [routerLink]="['/home-online-course']"><img src="assets/demo/index-6.jpg" alt=""><span>Home - Online Courese</span></a></li>
+									<li><a [routerLink]="['/home-language-school']"><img src="assets/demo/index-7.jpg" alt=""><span>Home - Language School</span></a></li>
+									<li><a [routerLink]="['/home-kids-school']"><img src="assets/demo/index-8.jpg" alt=""><span>Home - Kids School</span></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;">Features<i class="fa fa-chevron-down"></i></a>
+								<ul class="sub-menu tab-content">
+									<li>
+										<a href="javascript:;">Header Light <i class="fa fa-angle-right"></i></a>
+										<ul class="sub-menu">
+											<li><a [routerLink]="['/header-style-1']">Header 1</a></li>
+											<li><a [routerLink]="['/header-style-2']">Header 2</a></li>
+											<li><a [routerLink]="['/header-style-3']">Header 3</a></li>
+											<li><a [routerLink]="['/header-style-4']">Header 4</a></li>
+											<li><a [routerLink]="['/header-style-5']">Header 5</a></li>
+											<li><a [routerLink]="['/header-style-6']">Header 6</a></li>
+										</ul>
+									</li>	
+									<li> 
+										<a href="javascript:;">Header Dark <i class="fa fa-angle-right"></i></a>
+										<ul class="sub-menu">		
+											<li><a [routerLink]="['/header-style-dark-1']">Header 1</a></li>
+											<li><a [routerLink]="['/header-style-dark-2']">Header 2</a></li>
+											<li><a [routerLink]="['/header-style-dark-3']">Header 3</a></li>
+											<li><a [routerLink]="['/header-style-dark-4']">Header 4</a></li>
+											<li><a [routerLink]="['/header-style-dark-5']">Header 5</a></li>
+											<li><a [routerLink]="['/header-style-dark-6']">Header 6</a></li>
+										</ul>
+									</li>
+									<li> 
+										<a href="javascript:;">Footer <i class="fa fa-angle-right"></i></a>
+										<ul class="sub-menu">
+											<li><a [routerLink]="['/footer-1']">Footer 1 </a></li>
+											<li><a [routerLink]="['/footer-2']">Footer 2</a></li>
+											<li><a [routerLink]="['/footer-3']">Footer 3</a></li>
+											<li><a [routerLink]="['/footer-4']">Footer 4</a></li>
+											<li><a [routerLink]="['/footer-5']">Footer 5</a></li>
+											<li><a [routerLink]="['/footer-6']">Footer 6</a></li>
+											<li><a [routerLink]="['/footer-7']">Footer 7</a></li>
+											<li><a [routerLink]="['/footer-8']">Footer 8</a></li>
+											<li><a [routerLink]="['/footer-9']">Footer 9</a></li>
+											<li><a [routerLink]="['/footer-10']">Footer 10</a></li>
+											<li><a [routerLink]="['/footer-11']">Footer 11</a></li>
+											<li><a [routerLink]="['/footer-12']">Footer 12</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="has-mega-menu"> <a href="javascript:;">Pages<i class="fa fa-chevron-down"></i></a>
+								<ul class="mega-menu">
+									<li> 
+										<a href="javascript:;">Pages</a>
+										<ul>
+											<li><a [routerLink]="['/about-1']">About us 1</a></li>
+											<li><a [routerLink]="['/about-2']">About us 2</a></li>
+											<li><a [routerLink]="['/services-1']">Services 1</a></li>
+											<li><a [routerLink]="['/services-2']">Services 2</a></li>
+											<li><a [routerLink]="['/faq-1']">Faqs </a></li>
+										</ul>
+									</li>
+									<li> 
+										<a href="javascript:;">Pages</a>
+										<ul>
+											<li><a [routerLink]="['/teacher']">Teachers</a></li>
+											<li><a [routerLink]="['/teachers-profile']">Teachers Profile</a></li>
+											<li><a [routerLink]="['/courses']">Courses</a></li>
+											<li><a [routerLink]="['/courses-details']">Courses Details</a></li>
+											<li><a [routerLink]="['/event']">Events</a></li>
+										</ul>
+									</li>
+									<li> 
+										<a href="javascript:;">Pages</a>
+										<ul>
+											<li><a [routerLink]="['/event-details']">Events Details</a></li>
+											<li><a [routerLink]="['/help-desk']">Help Desk</a></li>
+											<li><a [routerLink]="['/privacy-policy']">Privacy Policy</a></li>
+											<li><a [routerLink]="['/error-404']">Error 404</a></li>
+											<li><a [routerLink]="['/error-405']">Error 405</a></li>
+										</ul>
+									</li>
+									<li> 
+										<a href="javascript:;">Pages</a>
+										<ul>
+											<li><a [routerLink]="['/gallery-grid-2']">Gallery Grid 2</a></li>
+											<li><a [routerLink]="['/gallery-grid-3']">Gallery Grid 3</a></li>
+											<li><a [routerLink]="['/gallery-grid-4']">Gallery Grid 4</a></li>											
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;">Shop<i class="fa fa-chevron-down"></i></a>
+								<ul class="sub-menu">
+									<li><a [routerLink]="['/shop']">Shop</a></li>
+									<li><a [routerLink]="['/shop-sidebar']">Shop Sidebar</a></li>
+									<li><a [routerLink]="['/shop-product-details']">Product Details</a></li>
+									<li><a [routerLink]="['/shop-cart']">Cart</a></li>
+									<li><a [routerLink]="['/shop-wishlist']">Wishlist</a></li>
+									<li><a [routerLink]="['/shop-checkout']">Checkout</a></li>
+									<li><a [routerLink]="['/shop-login']">Login</a></li>
+									<li><a [routerLink]="['/shop-register']">Register</a></li>
+								</ul>
+							</li>
+							<li class="has-mega-menu"> <a href="javascript:;">Blog<i class="fa fa-chevron-down"></i></a>
+								<ul class="mega-menu">
+									<li> <a href="javascript:void(0);">Blog</a>
+										<ul>
+											<li><a [routerLink]="['/blog-half-img']">Half image</a></li>
+											<li><a [routerLink]="['/blog-half-img-sidebar']">Half image sidebar</a></li>
+											<li><a [routerLink]="['/blog-half-img-left-sidebar']">Half image sidebar left</a></li>
+											<li><a [routerLink]="['/blog-large-img']">Large image</a></li>
+										</ul>
+									</li>
+									<li> <a href="javascript:void(0);">Blog</a>
+										<ul>
+											<li><a [routerLink]="['/blog-large-img-sidebar']">Large image sidebar</a></li>
+											<li><a [routerLink]="['/blog-large-img-left-sidebar']">Large image sidebar left</a></li>
+											<li><a [routerLink]="['/blog-grid-2']">Grid 2</a></li>
+											<li><a [routerLink]="['/blog-grid-2-sidebar']">Grid 2 sidebar</a></li>
+										</ul>
+									</li>
+									<li> <a href="javascript:void(0);">Blog</a>
+										<ul>
+											<li><a [routerLink]="['/blog-grid-2-sidebar-left']">Grid 2 sidebar left</a></li>
+											<li><a [routerLink]="['/blog-grid-3']">Grid 3</a></li>
+											<li><a [routerLink]="['/blog-grid-3-sidebar']">Grid 3 sidebar</a></li>
+											<li><a [routerLink]="['/blog-grid-3-sidebar-left']">Grid 3 sidebar left</a></li>
+										</ul>
+									</li>
+									<li> <a href="javascript:void(0);">Blog</a>
+										<ul>
+											<li><a [routerLink]="['/blog-grid-4']">Grid 4</a></li>
+											<li><a [routerLink]="['/blog-single']">Single</a></li>
+											<li><a [routerLink]="['/blog-single-sidebar']">Single sidebar</a></li>
+											<li><a [routerLink]="['/blog-single-left-sidebar']">Single sidebar right</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;">Contact Us<i class="fa fa-chevron-down"></i></a>
+								<ul class="sub-menu right">
+									<li><a [routerLink]="['/contact-1']">Contact us 1</a></li>
+									<li><a [routerLink]="['/contact-2']">Contact us 2</a></li>
+									<li><a [routerLink]="['/contact-3']">Contact us 3</a></li>
+									<li><a [routerLink]="['/contact-4']">Contact us 4</a></li>
+								</ul>
+							</li>
+						</ul>	
+						<div class="dlab-social-icon">
+							<ul>
+								<li><a class="site-button sharp-sm fa fa-facebook" href="javascript:void(0);"></a></li>
+								<li><a class="site-button sharp-sm fa fa-twitter" href="javascript:void(0);"></a></li>
+								<li><a class="site-button sharp-sm fa fa-linkedin" href="javascript:void(0);"></a></li>
+								<li><a class="site-button sharp-sm fa fa-instagram" href="javascript:void(0);"></a></li>
+							</ul>
+						</div>	
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main header END -->
+    </header>
