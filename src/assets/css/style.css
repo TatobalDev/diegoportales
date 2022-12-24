@@ -3021,7 +3021,7 @@ blockquote:before {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    width: 180px;
+    width: 250px;
     height: 70px;
     position: relative;
     z-index: 9;
@@ -3056,7 +3056,7 @@ blockquote:before {
 .logo-footer img {
     height: auto;
 	width: 100%;
-	max-width: 180px;
+	max-width: 250px;
 }
 .logo-header span,
 .logo-footer span {
