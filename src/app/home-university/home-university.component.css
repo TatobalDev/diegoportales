@@ -1,7 +1,7 @@
 /*===================== Premery bg color =====================*/
 :root {
-	--color-primary: #2ec4b6;
-	--color-hover: #1c9b8e;
+	--color-primary: #c4722e;
+	--color-hover: #1e1c9b;
 }
 
 /* Hex */
@@ -134,7 +134,7 @@ button.scroltop,
 .header-nav .nav > li .sub-menu li > a:after,
 .searchform input[type="submit"],
 .widget_calendar table tbody td#today {
-	background-color: #2ec4b6;
+	background-color: #ff0000;
 }
 
 /*Hex color :hover */
@@ -176,10 +176,10 @@ button.scroltop,
 .btnhover14::after,
 .btnhover13::after,
 .btnhover15::after {
-	background-color: #1c9b8e;
+	background-color: #cd1b1b;
 }
 .about-us .dlab-tabs .nav-tabs li.active {
-	border-right: 4px solid #1c9b8e;
+	border-right: 4px solid #cd1b1b;
 }
 
 /* Rgba color */
@@ -271,13 +271,13 @@ h6 a:hover,
 .service-box-4 .service-images i,
 .list-2 li:hover:before,
 .widget_rss ul .rss-date {
-	color: #2ec4b6;
+	color: #ff0000;
 }
 @media only screen and (max-width: 991px) {
 	.nav-dark.header-nav .nav > li > a:hover,
 	.nav-dark.header-nav .nav > li > a:active,
 	.nav-dark.header-nav .nav > li > a:focus {
-		color: #2ec4b6;
+		color: #ff0000;
 	}
 }
 /*===================== Premery border color =====================*/
@@ -306,45 +306,45 @@ button.scroltop.style3:after,
 .navstyle3 .header-nav .nav > li > .mega-menu,
 .navstyle3 .header-nav .nav > li .sub-menu,
 .site-button.outline {
-	border-color: #2ec4b6;
+	border-color: #ff0000;
 }
 .owl-item.active.center .testimonial-8 .testimonial-text:after {
-	border-top: 25px solid #2ec4b6;
+	border-top: 25px solid #ff0000;
 }
 .dlab-tabs.border-top .nav-tabs > li.active > a {
-	border-top-color: #2ec4b6;
+	border-top-color: #ff0000;
 }
 .comments-area .comment-form p input[type="submit"]:hover,
 .comments-area .comment-form p input[type="submit"]:focus,
 .comments-area .comment-form p input[type="submit"]:active {
-	border-color: #1c9b8e;
+	border-color: #cd1b1b;
 }
 .dlab-team4 .dlab-media:after {
-	border-color: #2ec4b6 #e6e5e5 #e6e5e5 #2ec4b6!important;
+	border-color: #ff0000 #e6e5e5 #e6e5e5 #ff0000!important;
 }
 /*===================== Secondery bg color =====================*/
 .testimonial-14 .testimonial-detail{
-	background-color: #1c9b8e;
+	background-color: #cd1b1b;
 }
 /*===================== New Important =====================*/
 a.text-primary:hover,
 button.scroltop.white {
-	color: #1c9b8e !important;
+	color: #cd1b1b !important;
 }
 .text-primary,
 .site-footer .footer-bottom a:hover,
 footer .widget_services ul li a:hover,
 .overlay-icon .check-km i.icon-bx-xs {
-	color: #2ec4b6 !important;
+	color: #ff0000 !important;
 }
 .bg-primary,
 .pagination-bx.gray .pagination > li.active > a,
 .pagination-bx.gray .pagination > li > a:hover {
-	background-color: #2ec4b6 !important;
+	background-color: #ff0000 !important;
 }
 a.bg-primary:focus,
 a.bg-primary:hover {
-	background-color: #1c9b8e !important;
+	background-color: #cd1b1b !important;
 }
 .testimonial-14,
 .dlab-team11-area.dots-theme.owl-theme .owl-dots .owl-dot.active span,
@@ -354,29 +354,29 @@ a.bg-primary:hover {
 .frame-box .about-box,
 .service-box-4:hover .service-images img,
 .contact-no .contact-left{
-	border-color: #2ec4b6!important;
+	border-color: #ff0000!important;
 }
 .testimonial-4 [class*="quote-"]{
-	border-color: #2ec4b6;
+	border-color: #ff0000;
 }
 .testimonial-14 .testimonial-detail:after,
 .testimonial-14 .testimonial-detail:before {
-	border-top-color: #2ec4b6!important;
+	border-top-color: #ff0000!important;
 }
 button.scroltop {
-	box-shadow: -4px 4px 24px -10px #2ec4b6!important;
+	box-shadow: -4px 4px 24px -10px #ff0000!important;
 }
 .navstyle2 .header-nav .nav > li.active > a:after,
 .navstyle2 .header-nav .nav > li:hover > a:after {
-	box-shadow: inset 0 0 0 2px #2ec4b6;
+	box-shadow: inset 0 0 0 2px #ff0000;
 }
 
 /* ===== selection ===== */
 ::-moz-selection { /* Code for Firefox */
-  background: #2ec4b6;
+  background: #ff0000;
 }
 ::selection {
-  background: #2ec4b6;
+  background: #ff0000;
 }
 /* secondry color */
 .text-secondry {
