@@ -1,6 +1,6 @@
 /*===================== Premery bg color =====================*/
 :root {
-	--color-primary: #ff0000;
+	--color-primary: #e10a08;
 	--color-hover: #cd1b1b;
 }
 
@@ -134,7 +134,7 @@ button.scroltop,
 .header-nav .nav > li .sub-menu li > a:after,
 .searchform input[type="submit"],
 .widget_calendar table tbody td#today {
-	background-color: #ff0000;
+	background-color: #e10a08;
 }
 
 /*Hex color :hover */
@@ -271,13 +271,13 @@ h6 a:hover,
 .service-box-4 .service-images i,
 .list-2 li:hover:before,
 .widget_rss ul .rss-date {
-	color: #ff0000;
+	color: #e10a08;
 }
 @media only screen and (max-width: 991px) {
 	.nav-dark.header-nav .nav > li > a:hover,
 	.nav-dark.header-nav .nav > li > a:active,
 	.nav-dark.header-nav .nav > li > a:focus {
-		color: #ff0000;
+		color: #e10a08;
 	}
 }
 /*===================== Premery border color =====================*/
@@ -306,13 +306,13 @@ button.scroltop.style3:after,
 .navstyle3 .header-nav .nav > li > .mega-menu,
 .navstyle3 .header-nav .nav > li .sub-menu,
 .site-button.outline {
-	border-color: #ff0000;
+	border-color: #e10a08;
 }
 .owl-item.active.center .testimonial-8 .testimonial-text:after {
-	border-top: 25px solid #ff0000;
+	border-top: 25px solid #e10a08;
 }
 .dlab-tabs.border-top .nav-tabs > li.active > a {
-	border-top-color: #ff0000;
+	border-top-color: #e10a08;
 }
 .comments-area .comment-form p input[type="submit"]:hover,
 .comments-area .comment-form p input[type="submit"]:focus,
@@ -320,7 +320,7 @@ button.scroltop.style3:after,
 	border-color: #cd1b1b;
 }
 .dlab-team4 .dlab-media:after {
-	border-color: #ff0000 #e6e5e5 #e6e5e5 #ff0000!important;
+	border-color: #e10a08 #e6e5e5 #e6e5e5 #e10a08!important;
 }
 /*===================== Secondery bg color =====================*/
 .testimonial-14 .testimonial-detail{
@@ -335,12 +335,12 @@ button.scroltop.white {
 .site-footer .footer-bottom a:hover,
 footer .widget_services ul li a:hover,
 .overlay-icon .check-km i.icon-bx-xs {
-	color: #ff0000 !important;
+	color: #e10a08 !important;
 }
 .bg-primary,
 .pagination-bx.gray .pagination > li.active > a,
 .pagination-bx.gray .pagination > li > a:hover {
-	background-color: #ff0000 !important;
+	background-color: #e10a08 !important;
 }
 a.bg-primary:focus,
 a.bg-primary:hover {
@@ -354,29 +354,29 @@ a.bg-primary:hover {
 .frame-box .about-box,
 .service-box-4:hover .service-images img,
 .contact-no .contact-left{
-	border-color: #ff0000!important;
+	border-color: #e10a08!important;
 }
 .testimonial-4 [class*="quote-"]{
-	border-color: #ff0000;
+	border-color: #e10a08;
 }
 .testimonial-14 .testimonial-detail:after,
 .testimonial-14 .testimonial-detail:before {
-	border-top-color: #ff0000!important;
+	border-top-color: #e10a08!important;
 }
 button.scroltop {
-	box-shadow: -4px 4px 24px -10px #ff0000!important;
+	box-shadow: -4px 4px 24px -10px #e10a08!important;
 }
 .navstyle2 .header-nav .nav > li.active > a:after,
 .navstyle2 .header-nav .nav > li:hover > a:after {
-	box-shadow: inset 0 0 0 2px #ff0000;
+	box-shadow: inset 0 0 0 2px #e10a08;
 }
 
 /* ===== selection ===== */
 ::-moz-selection { /* Code for Firefox */
-  background: #ff0000;
+  background: #e10a08;
 }
 ::selection {
-  background: #ff0000;
+  background: #e10a08;
 }
 /* secondry color */
 .text-secondry {
