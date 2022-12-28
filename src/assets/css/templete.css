@@ -6158,7 +6158,7 @@ HOME 5 Box Header
     font-weight: 700;
 	line-height: 75px;
     color: var(--color-primary);
-	font-family: 'Merriweather', serif;
+	font-family: 'Rubik', serif;
 }
 .event-post.event-list .event-date span {
     text-transform: uppercase;
@@ -6166,7 +6166,7 @@ HOME 5 Box Header
     font-weight: 600;
     background-color: var(--color-primary);
     font-size: 12px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Rubik', serif;
     color: #fff;
     border-radius: 3px;
     padding: 5px 8px;
@@ -6370,7 +6370,7 @@ HOME 5 Box Header
     font-size: 18px;
     color: #000;
     font-weight: 700;
-    font-family: 'Merriweather', serif;
+    font-family: 'Rubik', serif;
     margin-bottom: 15px;
 }
 .teachers-profile .teachers-contact ul li {
@@ -6806,7 +6806,7 @@ margin-top: 0;
     height: 60px;
     flex: 0 0 60px;
     font-size: 28px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Rubik', serif;
     font-weight: 900;
 }
 .langschool .bg-dark {
